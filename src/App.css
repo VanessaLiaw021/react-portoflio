@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #484848;
-    color: #FF69B4;
+    color: white;
     font-family: "Fire Sans", sans-serif;
 }
 
@@ -20,6 +20,7 @@
 
 .header h1 {
     font-size: 35px;
+    color: #FF69B4;
 }
 /* End Header Section */
 
@@ -28,6 +29,7 @@
     margin: 0 25px;
     text-decoration: none;
     font-size: 20px;
+    color: #FF69B4;
 }
 
 .nav a:hover {
@@ -37,7 +39,7 @@
 
 /* Start About Me Component */
 .main {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .nav-heading {
@@ -50,13 +52,15 @@
     border-radius: 10px;
     letter-spacing: 2px;
     font-size: 28px;
+    color: #FF69B4;
 }
 
 .about {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .about-heading {
@@ -94,7 +98,7 @@ form {
     align-items: center;
     border: 1px solid white;
     padding: 20px;
-    margin: 40px 700px;
+    margin: 60px 700px;
     border-radius: 10px;
 }
 
@@ -147,6 +151,21 @@ button:hover {
 
 /* Start Footer Component */
 footer {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid white;
+}
+
+footer a {
+    margin: 15px 15px 0 15px;
+}
+
+footer .icon {
+    font-size: 40px;
 }
 /* End Footer Component */
