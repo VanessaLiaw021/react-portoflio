@@ -14,8 +14,8 @@ function App() {
       <hr></hr>
       {/* <About /> */}
       {/* <Portfolio /> */}
-      <Contact />
-      {/* <Resume /> */}
+      {/* <Contact /> */}
+      <Resume />
       <Footer />
     </>
   );
