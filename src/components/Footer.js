@@ -7,12 +7,12 @@ import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer>
-        <a href="https://github.com/VanessaLiaw021">
-            <FontAwesomeIcon icon={faGithubSquare} className="icon"/>
-        </a>
-        <a href="https://www.linkedin.com/in/vanessa-liaw-b0a1981a2/">
-            <FontAwesomeIcon icon={faLinkedin} className="icon"/>
-        </a>
+      <a href="https://github.com/VanessaLiaw021">
+        <FontAwesomeIcon icon={faGithubSquare} className="icon"/>
+      </a>
+      <a href="https://www.linkedin.com/in/vanessa-liaw-b0a1981a2/">
+        <FontAwesomeIcon icon={faLinkedin} className="icon"/>
+      </a>
     </footer>
   );
 };

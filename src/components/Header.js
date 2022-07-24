@@ -6,8 +6,8 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <div className="header">
-        <h1>Vanessa Liaw</h1>
-        <Nav />
+      <h1>Vanessa Liaw</h1>
+      <Nav />
     </div>
   )
 }

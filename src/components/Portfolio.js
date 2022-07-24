@@ -5,7 +5,7 @@ import React from 'react';
 const Portfolio = () => {
   return (
     <div className="main" id="portfolio">
-      Portfolio
+      <h2 className="nav-heading">Projects</h2>
     </div>
   )
 }
