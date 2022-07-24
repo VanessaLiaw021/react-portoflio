@@ -1,0 +1,32 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #484848;
+    color: pink;
+    font-family: "Fire Sans", sans-serif;
+}
+
+/* Start Header Section */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.header h1 {
+    font-size: 35px;
+}
+/* End Header Section */
+
+/* Start Navbar Section */
+.nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* End Navbar Section */

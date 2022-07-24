@@ -5,7 +5,7 @@ import Nav from "./Nav";
 //Header Component 
 const Header = () => {
   return (
-    <div>
+    <div class="header">
         <h1>Vanessa Liaw</h1>
         <Nav />
     </div>
