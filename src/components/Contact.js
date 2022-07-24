@@ -20,6 +20,7 @@ const Contact = () => {
                 <label>Message:</label>
                 <textarea></textarea>
             </div>
+            <button>Send</button>
        </form>
     </div>
   )

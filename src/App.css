@@ -35,7 +35,7 @@
 }
 /* End Navbar Section */
 
-/* Start About Me Section */
+/* Start About Me Component */
 .main {
     margin-top: 50px;
 }
@@ -84,4 +84,56 @@
     height: 400px;
     margin-right: 50px;
 }
-/* End About Me Section */
+/* End About Me Component */
+
+/* Start Contact Component */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 450px;
+    border: 1px solid white;
+    height: 50px;
+    padding-left: 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 450px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FF69B4;
+}
+/* End Contact Component */
