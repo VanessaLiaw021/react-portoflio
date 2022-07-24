@@ -4,7 +4,24 @@ import React from 'react';
 //Contact Component
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="main">
+       <h2 className="nav-heading">Contact</h2>
+
+       <form>
+            <div className="form-group">
+                <label>Full Name:</label>
+                <input type="text"></input>
+            </div>
+            <div className="form-group">
+                <label>Email:</label>
+                <input type="text"></input>
+            </div>
+            <div className="form-group">
+                <label>Message:</label>
+                <textarea></textarea>
+            </div>
+       </form>
+    </div>
   )
 }
 
