@@ -30,6 +30,7 @@
     text-decoration: none;
     font-size: 20px;
     color: #FF69B4;
+    cursor: pointer;
 }
 
 .nav a:hover {
@@ -134,7 +135,7 @@ textarea {
     padding-top: 10px;
 }
 
-button {
+.send {
     width: 100px;
     padding: 10px;
     border: 1px solid #FF69B4;
@@ -144,7 +145,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.send:hover {
     color: #FF69B4;
 }
 /* End Contact Component */
