@@ -51,4 +51,37 @@
     letter-spacing: 2px;
     font-size: 28px;
 }
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.about-heading {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.about-heading span {
+    color: #FF69B4;
+}
+
+.about-me {
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.avatar {
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
 /* End About Me Section */
