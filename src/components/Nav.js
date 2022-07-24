@@ -1,5 +1,7 @@
+//Import Packages
 import React from 'react';
 
+//Nav Componenet
 const Nav = () => {
   return (
     <div>
@@ -13,4 +15,5 @@ const Nav = () => {
   )
 }
 
+//Export Nav Component
 export default Nav;
