@@ -91,6 +91,17 @@
 }
 /* End About Me Component */
 
+/* Start Portfolio Component */
+.card-wrapper {
+    background-color: white;
+}
+
+.card-image img {
+    width: 100px; 
+    height: 100px;
+}
+/* End Portfolio Component */
+
 /* Start Contact Component */
 form {
     display: flex;
