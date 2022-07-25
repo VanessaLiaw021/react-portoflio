@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portoflio/static/css/main.1c671a7e.css",
+    "main.js": "/react-portoflio/static/js/main.37dee256.js",
+    "static/media/avatar.jpg": "/react-portoflio/static/media/avatar.fcf692aa3834bdce6fce.jpg",
+    "static/media/somewhere.png": "/react-portoflio/static/media/somewhere.9a9072d248c80c36eeb5.png",
+    "static/media/blastoff.png": "/react-portoflio/static/media/blastoff.e25bd4c4d661e66276d4.png",
+    "static/media/resume.pdf": "/react-portoflio/static/media/resume.cdccd9c69117c0f4df88.pdf",
+    "static/media/work-schedule-planner.png": "/react-portoflio/static/media/work-schedule-planner.e0956c496657b98525b1.png",
+    "static/media/password-generator.png": "/react-portoflio/static/media/password-generator.9232473cd19d2cad44a4.png",
+    "static/media/rock-paper-scissor.png": "/react-portoflio/static/media/rock-paper-scissor.26faf1dda7411b8e853d.png",
+    "static/media/note-taker.png": "/react-portoflio/static/media/note-taker.83d0580cd4f7d97c9680.png",
+    "index.html": "/react-portoflio/index.html",
+    "main.1c671a7e.css.map": "/react-portoflio/static/css/main.1c671a7e.css.map",
+    "main.37dee256.js.map": "/react-portoflio/static/js/main.37dee256.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c671a7e.css",
+    "static/js/main.37dee256.js"
+  ]
+}
