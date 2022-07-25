@@ -13,8 +13,8 @@ const Project = (props) => {
           <p>{props.title}</p>
 
           <div className="live-github-link">
-            <a href={props.liveSite}>Live Site</a>
-            <a href={props.gitHub}>Github</a>
+            <a href={props.liveSite} target="_blank" rel="noreferrer">Live Site</a>
+            <a href={props.gitHub} target="_blank" rel="noreferrer">Github</a>
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import BlastOff from "./assets/images/blastoff.png";
 
 //List of all my projects
 // eslint-disable-next-line import/no-anonymous-default-export
-export default [
+const projects = [
     {
         id: 1, 
         image: Game,
@@ -58,3 +58,6 @@ export default [
         gitHub: "https://github.com/JtheFox/blastoff"
     }
 ];
+
+//Export projects data
+export default projects;
