@@ -1,8 +1,17 @@
+//Import Images
+import Game from "./assets/images/rock-paper-scissor.png";
+import PasswordGenerator from "./assets/images/password-generator.png";
+import SchedulePlanner from "./assets/images/work-schedule-planner.png";
+import NoteTaker from "./assets/images/note-taker.png";
+import Somewhere from "./assets/images/somewhere.png";
+import BlastOff from "./assets/images/blastoff.png";
+
 //List of all my projects
-const projects = [
+// eslint-disable-next-line import/no-anonymous-default-export
+export default [
     {
         id: 1, 
-        image: "./assets/images/rock-paper-scissor.png",
+        image: Game,
         imageAlt: "Rock Paper Scissor Game Image",
         title: "Rock Paper Scissor Game",
         liveSite: "https://vanessaliaw021.github.io/rock-paper-scissor-game/",
@@ -10,7 +19,7 @@ const projects = [
     },
     {
         id: 2, 
-        image: "./assets/images/password-generator.png",
+        image: PasswordGenerator,
         imageAlt: "Password Generator Image",
         title: "Password Generator",
         liveSite: "https://vanessaliaw021.github.io/password-generator/",
@@ -18,7 +27,7 @@ const projects = [
     },
     {
         id: 3, 
-        image: "./assets/images/work-schedule-planner.png",
+        image: SchedulePlanner,
         imageAlt: "Work Schedule Planner Image",
         title: "Work Schedule Planner",
         liveSite: "https://vanessaliaw021.github.io/schedule-planner/",
@@ -26,7 +35,7 @@ const projects = [
     },
     {
         id: 4, 
-        image: "./assets/images/note-taker.png",
+        image: NoteTaker,
         imageAlt: "Back End Note Taker",
         title: "Note Taker",
         liveSite: "https://afternoon-coast-80641.herokuapp.com/",
@@ -34,7 +43,7 @@ const projects = [
     },
     {
         id: 5, 
-        image: "./assets/images/somewhere.png",
+        image: Somewhere,
         imageAlt: "Somewhere image",
         title: "Somewhere",
         liveSite: "https://jthefox.github.io/somewhere-project/",
@@ -42,13 +51,10 @@ const projects = [
     },
     {
         id: 6, 
-        image: "./assets/images/blastoff.png",
+        image: BlastOff,
         imageAlt: "BlastOff Image",
         title: "BlastOff",
         liveSite: "https://blastoff2.herokuapp.com/",
         gitHub: "https://github.com/JtheFox/blastoff"
     }
 ];
-
-//Export Projects 
-module.exports = { projects };

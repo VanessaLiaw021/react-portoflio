@@ -1,21 +1,20 @@
 //Import Packages
 import React from 'react';
-import Game from "../assets/images/rock-paper-scissor.png";
 
 //Project Component
-const Project = () => {
+const Project = (props) => {
   return (
-    <div>
+    <div className="card">
       <div className="card-wrapper">
         <div className="card-image">
-          <img src={Game} alt="Rock Paper Scissor Game"/>
+          <img src={props.image} alt={props.imageAlt}/>
         </div>
         <div className="card-content">
-          <p>Rock Paper Scissor Game</p>
+          <p>{props.title}</p>
 
-          <div className="links">
-            <a href="#">Live Site</a>
-            <a href="#">Github</a>
+          <div className="live-github-link">
+            <a href={props.liveSite}>Live Site</a>
+            <a href={props.gitHub}>Github</a>
           </div>
         </div>
       </div>
