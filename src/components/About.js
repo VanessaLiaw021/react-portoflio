@@ -25,7 +25,7 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
 //Export About component
 export default About;
