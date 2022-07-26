@@ -197,6 +197,10 @@ textarea {
     padding-top: 10px;
 }
 
+.error-message {
+    color: red;
+}
+
 .send {
     width: 100px;
     padding: 10px;
