@@ -329,6 +329,12 @@ footer .icon {
 /* End Footer Component */
 
 /* Media Queries */
+@media only screen and (max-width: 1440px) {
+    form {
+        width: 40%; 
+    }
+}
+
 @media only screen and (max-width: 1024px) {
 
     /* Start About Component */
