@@ -11,7 +11,7 @@ const Resume = () => {
       <h2 className="nav-heading">Resume</h2>
 
       {/* Download Resume */}
-      <p className="download">Download My <a href={Download} target="_blank" rel="noreferrer">Resume</a></p>
+      <p className="download">Download My <a href={Download} target="_blank" rel="noreferrer" download>Resume</a></p>
     
       {/* Contact Form */}
       <div className="resume">
