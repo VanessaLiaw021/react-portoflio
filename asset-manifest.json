@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portoflio/static/css/main.b71a9c19.css",
-    "main.js": "/react-portoflio/static/js/main.b0bfc08d.js",
+    "main.js": "/react-portoflio/static/js/main.6b1d0af1.js",
     "static/media/avatar.jpg": "/react-portoflio/static/media/avatar.fcf692aa3834bdce6fce.jpg",
     "static/media/somewhere.png": "/react-portoflio/static/media/somewhere.9a9072d248c80c36eeb5.png",
     "static/media/blastoff.png": "/react-portoflio/static/media/blastoff.e25bd4c4d661e66276d4.png",
@@ -12,10 +12,10 @@
     "static/media/note-taker.png": "/react-portoflio/static/media/note-taker.83d0580cd4f7d97c9680.png",
     "index.html": "/react-portoflio/index.html",
     "main.b71a9c19.css.map": "/react-portoflio/static/css/main.b71a9c19.css.map",
-    "main.b0bfc08d.js.map": "/react-portoflio/static/js/main.b0bfc08d.js.map"
+    "main.6b1d0af1.js.map": "/react-portoflio/static/js/main.6b1d0af1.js.map"
   },
   "entrypoints": [
     "static/css/main.b71a9c19.css",
-    "static/js/main.b0bfc08d.js"
+    "static/js/main.6b1d0af1.js"
   ]
 }
