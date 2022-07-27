@@ -161,7 +161,8 @@ form {
     align-items: center;
     border: 1px solid white;
     padding: 20px;
-    margin: 60px 700px;
+    margin: 70px auto;
+    width: 30%;
     border-radius: 10px;
 }
 
@@ -223,6 +224,7 @@ textarea {
     align-items: center;
     margin-top: 60px;
     flex-wrap: wrap;
+    margin-bottom: 240px;
 }
 
 .wrapper .download {
@@ -312,8 +314,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 70px;
     border-top: 1px solid white;
@@ -327,3 +327,134 @@ footer .icon {
     font-size: 40px;
 }
 /* End Footer Component */
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+
+    /* Start About Component */
+    .nav-heading {
+        width: 24%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+    /* End About Component */
+
+    /* Start Contact Component */
+    form {
+        width: 55%; 
+    }
+    /* End Contact Component */
+
+    /* Start Resume Component */
+    .resume {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .skills, .education {
+        margin-bottom: 30px;
+        width: 90%;
+    }
+    /* End Resume Component */
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Start Header Section */
+    .header {
+        flex-direction: column;
+    }
+
+    .nav a {
+        margin-top: 20px;
+    }
+    /* End Header Section */
+
+    /* Start About Component */
+    .nav-heading {
+        width: 30%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+    /* End About Component */
+
+    /* Start Contact Component */
+    form {
+        width: 70%; 
+    }
+    /* End Contact Component */
+
+    /* Start Resume Component */
+    .resume {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+
+    .skills, .education {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    /* End Resume Component */
+}
+
+@media only screen and (max-width: 425px) {
+
+    /* Start About Component */
+    .about {
+        margin: 0 auto;
+    }
+
+    .about-me {
+        font-size: 14px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .avatar {
+        margin: 20px auto;
+        width: 300px;
+        height: 300px;
+    }
+    /* End About Component */
+    
+    /* Start Nav Component */
+    .nav-heading {
+        width: 50%;
+    }
+    .nav a {
+        display: block;
+        text-align: center;
+    }
+    /* End Nav Component */
+
+    /* Start Contact Component */
+    input, textarea {
+        width: 200px;
+    }
+    /* End Contact Component */
+
+    /* Start Resume Component */
+    .resume {
+        margin: 10px auto;
+    }
+
+    .skills, .education {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    /* End Resume Component */
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-heading {
+        width: 60%;
+    }
+}
